@@ -1,0 +1,46 @@
+[user]
+    name = Fabian Sörensson
+    email = fabian.sorensson@husqvarnagroup.com
+[alias]
+    a = add
+    aa = add --all
+    ai = add --interactive
+    b = branch
+    br = branch --remotes
+    ba = branch --all
+    c = commit
+    ca = commit --amend
+    co = checkout
+    # not yet staged for the next commit
+    d = diff
+    # staged for the next commit
+    dc = diff --cached
+    # everything from last commit, independent if it's staged or not
+    da = diff HEAD
+    ds = diff --stat
+    dcs = diff --cached --stat
+    das = diff HEAD --stat
+    dtd = difftool --dir-diff
+    l = log
+    lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+    m = merge
+    mb = merge-base master HEAD
+    pl = pull
+    ps = push
+    r = reset
+    rs = reset --soft
+    rh = reset --hard
+    rbi = rebase
+    rbi = rebase --interactive
+    # delete untracked files and folders, but keeps folders with a .git in them
+    clall = clean -dfx
+[color]
+    ui = auto
+[core]
+    # remove line if on Linux
+    autocrlf = true
+	editor = vim
+[pull]
+    rebase = true
+[push]
+    default = simple
