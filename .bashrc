@@ -188,3 +188,10 @@
 # }
 # 
 # alias cd=cd_func
+
+
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias .....='cd ../../../..'
+alias ......='cd ../../../../..'
