@@ -2,30 +2,32 @@ colorscheme elflord
 
 " Plugins
 
-"set nocompatible              " be iMproved, required
-"filetype off                  " required
+set nocompatible              " be iMproved, required
+filetype off                  " required
+
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 "
-"" set the runtime path to include Vundle and initialize
-"set rtp+=~/.vim/bundle/Vundle.vim
-"call vundle#begin()
-""
-"" let Vundle manage Vundle, required
-"Plugin 'VundleVim/Vundle.vim'
-"" MiniZinc syntax highlighting
-"Plugin 'vale1410/vim-minizinc'
-"" vim-airline
-"Plugin 'vim-airline/vim-airline'
-"Plugin 'vim-airline/vim-airline-themes'
-"
-"" All of your Plugins must be added before the following line
-"call vundle#end()            " required
-"filetype plugin indent on    " required
+" let Vundle manage Vundle, required
+Plugin 'VundleVim/Vundle.vim'
+" MiniZinc syntax highlighting
+Plugin 'vale1410/vim-minizinc'
+" vim-airline
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
+
+" All of your Plugins must be added before the following line
+call vundle#end()            " required
+filetype plugin indent on    " required
 
 " Plugins, end
 
 
 " Set leader key
 let mapleader = ","
+" Set local leader key
+let maplocalleader = "\\"
 
 
 " Buffers

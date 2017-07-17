@@ -34,3 +34,5 @@ fi
 # if [ -d "${HOME}/info" ]; then
 #   INFOPATH="${HOME}/info:${INFOPATH}"
 # fi
+
+export PATH=$PATH:/c/Program\ Files\ \(x86\)/PICO-8
