@@ -77,7 +77,7 @@ set ruler
 set encoding=utf-8
 
 " Whitespace
-set textwidth=100
+set textwidth=97
 set colorcolumn=+1
 set wrap
 set tabstop=4
