@@ -36,3 +36,5 @@ fi
 # fi
 
 export PATH=$PATH:/c/Program\ Files\ \(x86\)/PICO-8
+export PATH=$PATH:/c/msys64/home/Fabian/.gem/ruby/2.3.0/bin
+export PATH=$PATH:/c/RailsInstaller/Ruby2.3.0/bin

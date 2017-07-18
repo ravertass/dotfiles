@@ -1,3 +1,3 @@
-Capslock::Esc
+Capslock::Send {Escape}
 Esc::Capslock
 return
