@@ -1,4 +1,4 @@
 #SingleInstance force
-Capslock::Send {Escape}
+Capslock::Esc
 Esc::Capslock
 return

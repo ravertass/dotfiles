@@ -1,9 +1,9 @@
-# To the extent possible under law, the author(s) have dedicated all 
-# copyright and related and neighboring rights to this software to the 
-# public domain worldwide. This software is distributed without any warranty. 
-# You should have received a copy of the CC0 Public Domain Dedication along 
-# with this software. 
-# If not, see <http://creativecommons.org/publicdomain/zero/1.0/>. 
+# To the extent possible under law, the author(s) have dedicated all
+# copyright and related and neighboring rights to this software to the
+# public domain worldwide. This software is distributed without any warranty.
+# You should have received a copy of the CC0 Public Domain Dedication along
+# with this software.
+# If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 
 # ~/.bash_profile: executed by bash(1) for login shells.
 
@@ -35,7 +35,18 @@ fi
 #   INFOPATH="${HOME}/info:${INFOPATH}"
 # fi
 
+export GOROOT=/mingw64/lib/go
+export GOPATH=/mingw64
+
 export PATH=$PATH:/c/Program\ Files\ \(x86\)/PICO-8
 export PATH=$PATH:/c/msys64/home/Fabian/.gem/ruby/2.3.0/bin
 export PATH=$PATH:/c/RailsInstaller/Ruby2.3.0/bin
 export PATH=$PATH:/c/Graphviz2.38/bin
+export PATH=$PATH:/c/cc64/bin
+export PATH=$PATH:/c/Users/Fabian/Documents/Emulatorer/NES/fceux
+export PATH=$PATH:/c/Program\ Files\ \(x86\)/LilyPond/usr/bin
+export PATH=$PATH:/c/Program\ Files\ \(x86\)/vanBasco\'s\ Karaoke\ Player
+export PATH=$PATH:/c/bin
+export PATH=$PATH:/c/bin/yy-chr
+export PATH=$PATH:/mingw64/bin
+export PATH=$PATH:/c/Program\ Files/Tiled

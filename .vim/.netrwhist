@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =4
+let g:netrw_dirhist_4='/home/Fabian/workspace/pico-8-carts/repos/ggj2021'
+let g:netrw_dirhist_3='/home/Fabian/workspace/pico-8-carts/repos'
+let g:netrw_dirhist_2='/home/Fabian/workspace/pico-8-carts'
+let g:netrw_dirhist_1='/home/Fabian/workspace'
+let g:netrw_dirhist_0='/home/Fabian/workspace/tic-80-carts'
+let g:netrw_dirhist_9='/home/Fabian/workspace/tic-80-carts/tic-80-test'
+let g:netrw_dirhist_8='/home/Fabian/workspace/pico-8-carts/repos/ggj2021'
+let g:netrw_dirhist_7='/home/Fabian/workspace/pico-8-carts/repos'
+let g:netrw_dirhist_6='/home/Fabian/workspace/pico-8-carts'
+let g:netrw_dirhist_5='/home/Fabian/workspace'
